@@ -50,6 +50,9 @@ button:hover {
     background-color: #ff5c0f;
     cursor: pointer;
 }
+button a:hover {
+    color: #fff
+}
 
 section {
     padding: 5em 1em;
