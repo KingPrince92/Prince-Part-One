@@ -23,7 +23,7 @@ h1 {
 }
 
 li {
-    margin: 0.5em 0em;
+    margin: 1em .3em;
 }
 
 a {
@@ -37,7 +37,7 @@ a:hover {
 button{
     background-color: #20a8b4;
     padding: 12px;
-    border-radius: 12px;
+    border-radius: 10px;
     border: 0px;
     text-align: left;
     width: 100%;
@@ -66,24 +66,30 @@ img {
         justify-content: space-between;
         align-items: center;
         margin-top: 0;
-        
+        height: 45px;
+        margin-bottom: 1em;
     }
+
     li {
-        display: inline
-        margin: 1em;
+        display: inline;
+        justify-content: space-around;
     }
     button{
         width: auto;
     }
     img {
         display: list-item;
+        align-items: right;
+        width: 75%;
+        padding-left: 1em;
     }
     .content {
         display: flex;
-        padding-top: 1em;
+        justify-content: flex-start;
         align-items: center;
+        
     }
     .thebits {
-        width: 50;
+        width: 50%;
     }
 }
